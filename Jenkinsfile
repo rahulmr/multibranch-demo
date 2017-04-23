@@ -1,5 +1,5 @@
 stage('library') {
-    library 'github.com/cloudbeers/multibranch-demo-lib'
+    library 'github.com/rahulmr/multibranch-demo-lib'
 }
 standardBuild {
     environment = 'golang:1.5.0'
