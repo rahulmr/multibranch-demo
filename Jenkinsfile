@@ -4,4 +4,8 @@ standardBuild {
     mainScript = '''
 echo "hello world"
 '''
+    postScript = '''
+    echo "post script executed"
+    ls -la
+'''
 }
